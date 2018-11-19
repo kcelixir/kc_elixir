@@ -1,3 +1,53 @@
 /* This file is for your main application css. */
 
 @import "./phoenix.css";
+
+body {
+	font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-weight: 400;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+a, .link {
+	color: #4e2a8e;
+	transition: color 0.2s ease;
+}
+
+a:hover {
+	color: #8f4fff;
+}
+
+.phx-logo {
+	font-size: 200%;
+	font-weight: 700;
+}
+
+.button {
+	background-color: #4e2a8e;
+	border-color: #4e2a8e;
+	transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.button.button-outline {
+	color: #4e2a8e;
+}
+
+.button:hover {
+	background-color: #8f4fff;
+	border-color: #8f4fff;
+}
+
+.button.button-outline:hover {
+	color: #8f4fff;
+	border-color: #8f4fff;
+}
+
