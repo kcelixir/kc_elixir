@@ -27,6 +27,19 @@
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <%= render @view_module, @view_template, assigns %>
     </main>
+    <footer>
+      <p>
+        Made with 💙 by the Kansas City Elixir User Group
+      </p>
+
+      <div class="container text-center resources">
+        <a class="button button-outline" href="https://github.com/kcelixir">GitHub Organization</a>
+        <a class="button button-outline" href="https://github.com/kcelixir/kc_elixir">Site Source</a>
+        <a class="button button-outline" href="https://www.meetup.com/KC-Elixir-Users-Group">Meetup.com Page</a>
+        <a class="button button-outline" href="http://kcelixir-slack.herokuapp.com/">Join our Slack</a>
+      </div>
+
+    </footer>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
