@@ -69,3 +69,8 @@ a:hover {
 .meetup {
 	margin-top: 3em;
 }
+
+img.center {
+	margin: 0 auto;
+	display: block;
+}

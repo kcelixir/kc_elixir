@@ -13,7 +13,10 @@
 <%= for meetup <- @meetups do %>
   <div class="container meetup">
     <h2 class="text-center">
-      <%= if meetup == Enum.fetch!(@meetups, 0) do raw("<em>Next Meetup</em>: ") end %><%= meetup.date_of %>
+      <%= if meetup == Enum.fetch!(@meetups, 0) do %>
+        <em>Next Meetup</em>:
+      <% end %>
+      <%= meetup.date_of %>
     </h2>
 
     <ul>
@@ -32,5 +35,9 @@
     <p>
       <%= meetup.description %>
     </p>
+
+    <%= if Map.get(meetup, :image_url, nil) do %>
+      <img class="center" src="<%= meetup.image_url %>"></img>
+    <% end %>
   </div>
 <% end %>
