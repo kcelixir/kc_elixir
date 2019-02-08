@@ -7,7 +7,6 @@ defmodule KcElixirWeb.PageController do
         ~N{2019-03-07 18:00:00},
         ~N{2019-03-07 20:00:00}
       ],
-      image_url: "http://placekitten.com/200/200",
       topic: "Chemanalysis: Dialyzing Elixir",
       location: %{
         url: "https://goo.gl/maps/cYJFK7eXG362",
