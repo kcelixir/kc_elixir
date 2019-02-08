@@ -16,7 +16,7 @@
         <strong>Topic</strong>: <%= meetup.topic %>
       </li>
       <li>
-        <strong>Speaker</strong>: <% meetup.speaker %>
+        <strong>Speaker</strong>: <%= meetup.speaker %>
       </li>
       <li>
         <strong>Date</strong>: <%= meetup.datetime_description %>
