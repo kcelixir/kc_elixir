@@ -8,18 +8,19 @@ defmodule KcElixirWeb.PageController do
         ~N{2019-03-07 20:00:00}
       ],
       image_url: "http://placekitten.com/200/200",
-      topic: "Dialyzer!",
+      topic: "Chemanalysis: Dialyzing Elixir",
       location: %{
-        url: "http://www.403club.com",
-        address: "614 Reynolds Ave, Kansas City, KS 66101",
-        venue: "403 Club"
+        url: "https://goo.gl/maps/cYJFK7eXG362",
+        address: "8500 Shawnee Mission Pkwy Mission, KS 66202",
+        venue: "Company Kitchen"
       },
       description: """
-      It is time that we got to know each other for more than
-      just our brains and Alan's great rapping skills. Let's get on down
-      to the 403 Club for some libations and games. They have pool,
-      darts, and no shortage of pinball. We look forward to seeing
-      everyone there. Alcohol is not a requirement for anyone to drink.
+      No one wants to ship bugs in a production system, especially embarrassing
+      ones! Dialyzer is a post-compilation type-checker that has found more bugs
+      in my code than I can count, saving me a lot of time and frustration. This
+      talk will discuss briefly what Dialyzer is, how to use it in Elixir
+      projects, and go in-depth on three bugs it helped me find in the Elixir
+      compiler and standard library.
       """
     }
   ]

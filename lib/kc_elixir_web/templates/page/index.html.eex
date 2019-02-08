@@ -28,7 +28,14 @@
       </li>
       <li>
         <strong>Location</strong>:
-        <a href="<%= meetup.location.url %>"><%= meetup.location_description %></a>
+
+        <%= if Map.get(meetup.location, :url, nil) do %>
+          <a href="<%= meetup.location.url %>">
+        <% end %>
+        <%= meetup.location_description %></a>
+        <%= if Map.get(meetup.location, :url, nil) do %>
+          </a>
+        <% end %>
       </li>
     </p>
 
