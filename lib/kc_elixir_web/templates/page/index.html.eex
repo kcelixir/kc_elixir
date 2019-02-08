@@ -2,18 +2,7 @@
   <h1>Kansas City <span class="link">Elixir</span> User Group</h1>
 </section>
 
-<div style='background-image: url("<%= Routes.static_path(@conn, "/images/2018-12.jpg") %>"); background-size: contain; border: 1px solid; no-repeat;'></div>
-<div><img src="/images/2018-12.jpg" /></div>
-<div class="container">
-  <p><h3><b>December 2018 Meeting - It's Game Time!</b></h3></p>
-
-  <p><h4><b>Details:</b></h4>It is time that we got to know each other for more than just our brains and Alan's great rapping skills. Let's get on down to the 403 Club for some libations and games. They have pool, darts, and no shortage of pinball. We look forward to seeing everyone there. Alcohol is not a requirement for anyone to drink.</p>
-
-  <p><h4><b>Date:</b></h4>Thursday, December 6, 2018 - 6:00 PM to 8:00 PM</p>
-  <p><h4><b>Location:</b></h4>614 Reynolds Ave, Kansas City, KS 66101 - <a href="http://www.403club.com">403 Club</a></p>
-</div>
-
-<div class="container text-center">
+<div class="container text-center resources">
   <h2 class="">Resources</h2>
   <a class="button button-outline" href="https://github.com/kcelixir">GitHub Organization</a>
   <a class="button button-outline" href="https://github.com/kcelixir/kc_elixir">Site Source</a>
@@ -21,3 +10,27 @@
   <a class="button button-outline" href="http://kcelixir-slack.herokuapp.com/">Join our Slack</a>
 </div>
 
+<%= for meetup <- @meetups do %>
+  <div class="container meetup">
+    <h2 class="text-center">
+      <%= if meetup == Enum.fetch!(@meetups, 0) do raw("<em>Next Meetup</em>: ") end %><%= meetup.date_of %>
+    </h2>
+
+    <ul>
+      <li>
+        <strong>Topic</strong>: <%= meetup.topic %>
+      </li>
+      <li>
+        <strong>Date</strong>: <%= meetup.datetime_description %>
+      </li>
+      <li>
+        <strong>Location</strong>:
+        <a href="<%= meetup.location.url %>"><%= meetup.location_description %></a>
+      </li>
+    </p>
+
+    <p>
+      <%= meetup.description %>
+    </p>
+  </div>
+<% end %>
