@@ -16,7 +16,25 @@
         <strong>Topic</strong>: <%= meetup.topic %>
       </li>
       <li>
-        <strong>Speaker</strong>: <%= meetup.speaker %>
+        <strong>Speaker Info</strong>:
+        <ul>
+          <li><%= if Map.get(meetup.speaker, :name, nil) do %>
+                Name: <%= meetup.speaker.name %>
+              <% end %>
+          </li>
+          <li><%= if Map.get(meetup.speaker, :url, nil) do %>
+                URL: <a href="<%= meetup.speaker.url %>"><%= meetup.speaker.url %></a>
+              <% end %>
+          </li>
+          <li><%= if Map.get(meetup.speaker, :github, nil) do %>
+                GitHub: <a href="<%= meetup.speaker.github %>"><%= meetup.speaker.github %></a>
+              <% end %>
+          </li>
+          <li><%= if Map.get(meetup.speaker, :twitter, nil) do %>
+                Twitter: <a href="<%= meetup.speaker.twitter %>"><%= meetup.speaker.twitter %></a>
+              <% end %>
+          </li>
+        </ul>
       </li>
       <li>
         <strong>Date</strong>: <%= meetup.datetime_description %>
