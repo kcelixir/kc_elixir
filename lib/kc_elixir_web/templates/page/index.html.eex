@@ -26,12 +26,12 @@
           <% end
         %>
         <%= meetup.speaker.name %>
-        <%= if Map.get(meetup.speaker, :github, nil) do %>
+        <%= if Map.get(meetup.speaker, :github) do %>
           <a href="<%= meetup.speaker.github %>">
             <i class="fab fa-github"></i>
           </a>
         <% end %>
-        <%= if Map.get(meetup.speaker, :twitter, nil) do %>
+        <%= if Map.get(meetup.speaker, :twitter) do %>
           <a href="<%= meetup.speaker.twitter %>">
             <i class="fab fa-twitter"></i>
           </a>
@@ -47,7 +47,7 @@
           <a href="<%= meetup.location.url %>">
         <% end %>
         <%= meetup.location_description %></a>
-        <%= if Map.get(meetup.location, :url, nil) do %>
+        <%= if Map.get(meetup.location, :url) do %>
           </a>
         <% end %>
       </li>
@@ -57,7 +57,7 @@
       <%= meetup.description %>
     </p>
 
-    <%= if Map.get(meetup, :image_url, nil) do %>
+    <%= if Map.get(meetup, :image_url) do %>
       <img class="center" src="<%= meetup.image_url %>"></img>
     <% end %>
   </div>
