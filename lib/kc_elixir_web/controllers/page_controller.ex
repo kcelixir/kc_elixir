@@ -7,6 +7,12 @@ defmodule KcElixirWeb.PageController do
         ~N{2019-03-07 18:00:00},
         ~N{2019-03-07 20:00:00}
       ],
+      speaker: %{
+        name: "Sean Cribbs",
+        url: "https://seancribbs.com",
+        github: "https://github.com/seancribbs",
+        twitter: "https://twitter.com/seancribbs"
+      },
       topic: "Chemanalysis: Dialyzing Elixir",
       location: %{
         url: "https://goo.gl/maps/cYJFK7eXG362",

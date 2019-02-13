@@ -93,3 +93,20 @@ footer {
 	margin-top: 5em;
 	padding: 3em;
 }
+
+.avatar {
+	border-radius: 0.25em;
+	max-width: 1em;
+	max-height: 1em;
+	vertical-align: center;
+}
+
+.items-center {
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+
+li > a ~ a {
+	margin-left: 0.25em;
+}
