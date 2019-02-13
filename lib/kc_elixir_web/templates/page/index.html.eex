@@ -18,7 +18,7 @@
       <li>
         <strong>Speaker</strong>:
         <%= if Map.get(meetup.speaker, :url) do %>
-          <a href="<%= meetup.location.url %>">
+          <a href="<%= meetup.speaker.url %>">
         <% end %>
         <%#
           <%= if Map.get(meetup.speaker, :avatar_url) do
