@@ -4,28 +4,23 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2019-03-07 18:00:00},
-        ~N{2019-03-07 20:00:00}
+        ~N{2019-04-04 18:00:00},
+        ~N{2019-04-04 20:00:00}
       ],
       speaker: %{
-        name: "Sean Cribbs",
-        url: "https://seancribbs.com",
-        github: "https://github.com/seancribbs",
-        twitter: "https://twitter.com/seancribbs"
+        name: "Everyone!"
       },
-      topic: "Chemanalysis: Dialyzing Elixir",
+      topic: "How I Work",
       location: %{
         url: "https://goo.gl/maps/cYJFK7eXG362",
         address: "8500 Shawnee Mission Pkwy Mission, KS 66202",
         venue: "Company Kitchen"
       },
       description: """
-      No one wants to ship bugs in a production system, especially embarrassing
-      ones! Dialyzer is a post-compilation type-checker that has found more bugs
-      in my code than I can count, saving me a lot of time and frustration. This
-      talk will discuss briefly what Dialyzer is, how to use it in Elixir
-      projects, and go in-depth on three bugs it helped me find in the Elixir
-      compiler and standard library.
+      This session will give everybody the opportunity to show off or improve
+      their workflows. We'll talk about editors, tools, environments, and all
+      the wonderful things that make working with Elixir (or any programming
+      language, really) as smooth and awesome as possible.
       """
     }
   ]
@@ -38,7 +33,7 @@ defmodule KcElixirWeb.PageController do
     # [dt_from, dt_to] = meetup.datetime |> Enum.map(&DateTime.from_naive!(&1, "America/Chicago"))
     [dt_from, dt_to] = meetup.datetime |> Enum.map(&DateTime.from_naive!(&1, "Etc/UTC"))
 
-    # TODO: exclude dates that in the past
+    # TODO: exclude dates from the past?
 
     dt_from |> IO.inspect()
 
