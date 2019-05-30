@@ -4,23 +4,19 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2019-04-04 18:00:00},
-        ~N{2019-04-04 20:00:00}
+        ~N{2019-06-04 18:00:00},
+        ~N{2019-06-04 20:00:00}
       ],
       speaker: %{
-        name: "Everyone!"
+        name: "Jeremy Owens-Boggs"
       },
-      topic: "How I Work",
+      topic: "Macros - use to document pubsub",
       location: %{
         url: "https://goo.gl/maps/cYJFK7eXG362",
         address: "8500 Shawnee Mission Pkwy Mission, KS 66202",
         venue: "Company Kitchen"
       },
       description: """
-      This session will give everybody the opportunity to show off or improve
-      their workflows. We'll talk about editors, tools, environments, and all
-      the wonderful things that make working with Elixir (or any programming
-      language, really) as smooth and awesome as possible.
       """
     }
   ]
