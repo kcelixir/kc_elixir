@@ -10,7 +10,7 @@ defmodule KcElixirWeb.PageController do
       speaker: %{
         name: "Everyone"
       },
-      topic: "Project Structures - ☂ projects - Directories on my!",
+      topic: "Project Structures - ☂ projects - Directories, oh my!",
       location: %{
         url: "https://goo.gl/maps/cYJFK7eXG362",
         address: "8500 Shawnee Mission Pkwy Mission, KS 66202",
