@@ -4,17 +4,17 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2019-07-11 18:00:00},
-        ~N{2019-07-11 20:00:00}
+        ~N{2019-08-01 18:00:00},
+        ~N{2019-08-01 20:00:00}
       ],
       speaker: %{
         name: "Everyone"
       },
-      topic: "Project Structures - ☂ projects - Directories, oh my!",
+      topic: "Games night — bring your own board game",
       location: %{
-        url: "https://goo.gl/maps/cYJFK7eXG362",
-        address: "8500 Shawnee Mission Pkwy Mission, KS 66202",
-        venue: "Company Kitchen"
+        url: "https://goo.gl/maps/cUUMbLpFb3Nq4Wiz5",
+        address: "300 E 39th St, Kansas City, MO 64111",
+        venue: "Plexpod Westport Commons"
       },
       description: """
       """
