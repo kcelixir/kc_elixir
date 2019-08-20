@@ -4,19 +4,23 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2019-08-01 18:00:00},
-        ~N{2019-08-01 20:00:00}
+        ~N{2019-09-05 18:00:00},
+        ~N{2019-09-05 20:00:00}
       ],
       speaker: %{
-        name: "Everyone"
+        name: "Jason Stewart"
       },
-      topic: "Games night — bring your own board game",
+      topic: "Elixir - Ray Tracing",
       location: %{
-        url: "https://goo.gl/maps/cUUMbLpFb3Nq4Wiz5",
-        address: "300 E 39th St, Kansas City, MO 64111",
-        venue: "Plexpod Westport Commons"
+        url: "https://goo.gl/maps/cYJFK7eXG362",
+        address: "8500 Shawnee Mission Pkwy Mission, KS 66202",
+        venue: "Company Kitchen"
       },
       description: """
+      Elixir is well known for its concurrency and parallel processing capabilities. During this
+      presentation we will explore how these capabilities can be utilized for a physically based graphics
+      rendering system. We will discuss some basic fundamentals of physically based graphics systems and
+      how the rendering algorithm was implemented using Elixir.
       """
     }
   ]
