@@ -4,20 +4,24 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2019-10-03 18:00:00},
-        ~N{2019-10-03 20:00:00}
+        ~N{2019-11-07 18:00:00},
+        ~N{2019-11-07 20:00:00}
       ],
       speaker: %{
-        name: "Alan Voss and Sean Cribbs"
+        name: "Andrew Turley"
       },
-      topic: "Game Bot Programming Night",
+      topic: "The Pony Language",
       location: %{
         url: "https://goo.gl/maps/cUUMbLpFb3Nq4Wiz5",
         address: "300 E 39th St, Kansas City, MO 64111",
-        venue: "Plexpod Westport Commons"
+        venue: "Plexpod Westport Commons, Annex A"
       },
       description: """
-      You and an optional partner will be creating a bot to play a simple game.  The bots will play against each other at the end of the evening.
+      Pony (ponylang.io) is a fast actor-based programming language that guarantees data safety. These data safety guarantees are built on reference capabilities, which control the way aliases are used in a way that prevents more than one actor from having access to mutable data.
+
+      This talk will present an overview of the language and runtime with a focus on how it compares to other actor-based systems (like Elixir), followed by a look at some small programs that illustrate how Pony's data safety guarantees work.
+
+      Andrew Turley is an engineer at Wallaroo Labs where he has been using Pony since 2016.
       """
     }
   ]
@@ -32,7 +36,7 @@ defmodule KcElixirWeb.PageController do
 
     # TODO: exclude dates from the past?
 
-    dt_from |> IO.inspect()
+    # dt_from |> IO.inspect()
 
     from = Timex.format!(dt_from, "{WDfull}, {Mfull} {D}, {YYYY} - {h12}:{m} {AM}")
     to = Timex.format!(dt_to, "{h12}:{m} {AM}")

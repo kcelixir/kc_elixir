@@ -53,9 +53,9 @@
       </li>
     </p>
 
-    <p class="meetup-description">
-      <%= meetup.description %>
-    </p>
+    <div class="meetup-description">
+      <%= text_to_html meetup.description %>
+    </div>
 
     <%= if Map.get(meetup, :image_url) do %>
       <img class="center" src="<%= meetup.image_url %>"></img>
