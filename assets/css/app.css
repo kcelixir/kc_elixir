@@ -7,6 +7,18 @@ body {
 	font-weight: 400;
 }
 
+.special_notice {
+    color: #900;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #000; /* old IE */
+    background-color: #000; /* Modern Browsers */
+}
+
 h1 {
 	margin: 0;
 }
