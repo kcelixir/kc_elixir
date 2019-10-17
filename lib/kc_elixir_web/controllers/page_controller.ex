@@ -22,6 +22,46 @@ defmodule KcElixirWeb.PageController do
       This talk will present an overview of the language and runtime with a focus on how it compares to other actor-based systems (like Elixir), followed by a look at some small programs that illustrate how Pony's data safety guarantees work.
 
       Andrew Turley is an engineer at Wallaroo Labs where he has been using Pony since 2016.
+
+      Park in the ramped Guest Parking Lot at the NE corner of 39th and Warwick.  The entrance is the building adjacent to the lot at the far left-hand door.  Upon arrival, assuming you aren't able to get in, reach out in the #general channel of KC Elixir Slack and post something with an <i>@alanvoss</i> or <i>@seancribbs</i>.  You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
+      """
+    },
+    %{
+      datetime: [
+        ~N{2019-12-05 18:00:00},
+        ~N{2019-12-05 20:30:00}
+      ],
+      speaker: %{
+        name: "Nobody - just fun"
+      },
+      topic: "December Fun and Games",
+      location: %{
+        url: "https://goo.gl/maps/btZv8NsH2GhJU5yNA",
+        address: "614 Reynolds Ave, Kansas City, KS 66101",
+        venue: "403 Club"
+      },
+      description: """
+      Let's play pinball and have some food and drink.  Similar to last year.  A pinball reunion!
+      """
+    },
+    %{
+      datetime: [
+        ~N{2020-01-09 18:00:00},
+        ~N{2020-01-09 20:00:00}
+      ],
+      speaker: %{
+        name: "Multiple speakers"
+      },
+      topic: "Lightning Talks",
+      location: %{
+        url: "https://goo.gl/maps/cUUMbLpFb3Nq4Wiz5",
+        address: "300 E 39th St, Kansas City, MO 64111",
+        venue: "Plexpod Westport Commons, Room 1M"
+      },
+      description: """
+      5 minute presentations on various Elixir and non-Elixir topics put on by the group.
+
+      Park in the ramped Guest Parking Lot at the NE corner of 39th and Warwick.  The building for the meetup is the one that is sky-bridged from the building adjacent to the parking lot and then on the 1st floor of that building.  Upon arrival, reach out to <i>@alanvoss</i> or <i>@seancribbs</i> in the #general channel of KC Elixir Slack, and we'll come get you and guide you.  You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """
     }
   ]
