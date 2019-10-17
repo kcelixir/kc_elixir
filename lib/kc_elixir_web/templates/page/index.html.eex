@@ -2,6 +2,14 @@
   <h1>Kansas City <span class="link">Elixir</span> User Group</h1>
 </section>
 
+<section class="phx-hero">
+<h2 class="special_notice">Notice</h2>
+
+<p>
+Coming soon, our KC Elixir Meetup page will likely be going away due to cost structure changes there.  This page will remain, but our RSVP mechanism will likely change to KC Elixir Slack.  Please sign up at <a href="http://kcelixir-slack.herokuapp.com/">http://kcelixir-slack.herokuapp.com/</a> so that we'll know you are coming and can make appropriate food and meeting room accommodations for all of us.
+</p>
+</section>
+
 <%= for meetup <- @meetups do %>
   <div class="container meetup">
     <h2 class="text-center">
@@ -61,4 +69,6 @@
       <img class="center" src="<%= meetup.image_url %>"></img>
     <% end %>
   </div>
+
+  <hr/>
 <% end %>

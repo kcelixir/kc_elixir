@@ -23,7 +23,7 @@ defmodule KcElixirWeb.PageController do
 
       Andrew Turley is an engineer at Wallaroo Labs where he has been using Pony since 2016.
 
-      Park in the ramped Guest Parking Lot at the NE corner of 39th and Warwick.  The entrance is the building adjacent to the lot at the far left-hand door.  Upon arrival, assuming you aren't able to get in, reach out in the #general channel of KC Elixir Slack and post something with an <i>@alanvoss</i> or <i>@seancribbs</i>.  You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
+      Park in the ramped Guest Parking Lot at the NE corner of 39th and Warwick.  The entrance is the building adjacent to the lot at the far left-hand door.  Upon arrival, assuming you aren't able to get in, reach out in the #general channel of KC Elixir Slack and post something with an @alanvoss or @seancribbs.  You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """
     },
     %{
@@ -61,7 +61,7 @@ defmodule KcElixirWeb.PageController do
       description: """
       5 minute presentations on various Elixir and non-Elixir topics put on by the group.
 
-      Park in the ramped Guest Parking Lot at the NE corner of 39th and Warwick.  The building for the meetup is the one that is sky-bridged from the building adjacent to the parking lot and then on the 1st floor of that building.  Upon arrival, reach out to <i>@alanvoss</i> or <i>@seancribbs</i> in the #general channel of KC Elixir Slack, and we'll come get you and guide you.  You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
+      Park in the ramped Guest Parking Lot at the NE corner of 39th and Warwick.  The building for the meetup is the one that is sky-bridged from the building adjacent to the parking lot and then on the 1st floor of that building.  Upon arrival, reach out to @alanvoss or @seancribbs in the #general channel of KC Elixir Slack, and we'll come get you and guide you.  You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """
     }
   ]
