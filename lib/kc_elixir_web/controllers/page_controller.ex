@@ -4,30 +4,6 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2019-11-07 18:00:00},
-        ~N{2019-11-07 20:00:00}
-      ],
-      speaker: %{
-        name: "Andrew Turley"
-      },
-      topic: "The Pony Language",
-      location: %{
-        url: "https://goo.gl/maps/cUUMbLpFb3Nq4Wiz5",
-        address: "300 E 39th St, Kansas City, MO 64111",
-        venue: "Plexpod Westport Commons, Annex A"
-      },
-      description: """
-      Pony (ponylang.io) is a fast actor-based programming language that guarantees data safety. These data safety guarantees are built on reference capabilities, which control the way aliases are used in a way that prevents more than one actor from having access to mutable data.
-
-      This talk will present an overview of the language and runtime with a focus on how it compares to other actor-based systems (like Elixir), followed by a look at some small programs that illustrate how Pony's data safety guarantees work.
-
-      Andrew Turley is an engineer at Wallaroo Labs where he has been using Pony since 2016.
-
-      Park in the ramped Guest Parking Lot at the NE corner of 39th and Warwick.  The entrance is the building adjacent to the lot at the far left-hand door.  Upon arrival, assuming you aren't able to get in, reach out in the #general channel of KC Elixir Slack and post something with an @alanvoss or @seancribbs.  You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
-      """
-    },
-    %{
-      datetime: [
         ~N{2019-12-05 18:00:00},
         ~N{2019-12-05 20:30:00}
       ],
