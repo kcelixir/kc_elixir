@@ -19,6 +19,18 @@ Coming soon, our KC Elixir Meetup page will likely be going away due to cost str
       <%= meetup.date_of %>
     </h2>
 
+    <div class="container sponsor">
+      <%= if Map.get(meetup, :sponsors) do %>
+      <b>Sponsors:</b>
+        <%= for sponsor <- Map.get(meetup, :sponsors, []) do %>
+        <p>
+          <div>
+            <a href="<%= Map.get(sponsor, :url) %>"><img alt="<%= Map.get(sponsor, :name) %>" src="<%= Routes.static_path(@conn, "/images/#{Map.get(sponsor, :image)}") %>" /><a/>
+          </div>
+        </p>
+        <% end %>
+      <% end %>
+    </div>
     <ul>
       <li>
         <strong>Topic</strong>: <%= meetup.topic %>

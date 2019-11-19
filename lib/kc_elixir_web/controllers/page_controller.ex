@@ -18,7 +18,11 @@ defmodule KcElixirWeb.PageController do
       },
       description: """
       Let's play pinball and have some food and drink.  Similar to last year.  A pinball reunion!
-      """
+      """,
+      sponsors: [
+        %{ name: "Binary Noggin", image: "binary-noggin.png", url: "https://binarynoggin.com" },
+        %{ name: "Postmates", image: "postmates.pdf", url: "https://postmates.com" },
+      ]
     },
     %{
       datetime: [
