@@ -3,8 +3,8 @@
 @import "./phoenix.css";
 
 body {
-	font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-weight: 400;
+        font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
 }
 
 .special_notice {
@@ -20,105 +20,105 @@ hr {
 }
 
 h1 {
-	margin: 0;
+        margin: 0;
 }
 
 h2 small {
-	text-transform: uppercase;
-	font-size: 60%;
-	letter-spacing: 0.1em;
-	font-weight: normal;
+        text-transform: uppercase;
+        font-size: 60%;
+        letter-spacing: 0.1em;
+        font-weight: normal;
 }
 
 h4 {
-	font-weight: bold;
+        font-weight: bold;
 }
 
 em {
 }
 
 .center {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
 }
 
 .text-center {
-	text-align: center;
+        text-align: center;
 }
 
 a, .link {
-	color: #4e2a8e;
-	transition: color 0.2s ease;
+        color: #4e2a8e;
+        transition: color 0.2s ease;
 }
 
 a:hover {
-	color: #8f4fff;
+        color: #8f4fff;
 }
 
 .phx-logo {
-	font-size: 200%;
-	font-weight: 700;
+        font-size: 200%;
+        font-weight: 700;
 }
 
 .button {
-	background-color: #4e2a8e;
-	border-color: #4e2a8e;
-	transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+        background-color: #4e2a8e;
+        border-color: #4e2a8e;
+        transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
 .button.button-outline {
-	color: #4e2a8e;
+        color: #4e2a8e;
 }
 
 .button:hover {
-	background-color: #8f4fff;
-	border-color: #8f4fff;
+        background-color: #8f4fff;
+        border-color: #8f4fff;
 }
 
 .button.button-outline:hover {
-	color: #8f4fff;
-	border-color: #8f4fff;
+        color: #8f4fff;
+        border-color: #8f4fff;
 }
 
 .resources {
-	margin-bottom: 0em;
+        margin-bottom: 0em;
 }
 
 .meetup {
-	margin-top: 3em;
+        margin-top: 3em;
 }
 
 .meetup-description {
-	text-align: justify;
+        text-align: justify;
 }
 
 img.center {
-	margin: 0 auto;
-	display: block;
+        margin: 0 auto;
+        display: block;
 }
 
 footer {
-	background: #eee;
-	color: #555;
-	text-align: center;
-	margin-top: 5em;
-	padding: 3em;
+        background: #eee;
+        color: #555;
+        text-align: center;
+        margin-top: 5em;
+        padding: 3em;
 }
 
 .avatar {
-	border-radius: 0.25em;
-	max-width: 1em;
-	max-height: 1em;
-	vertical-align: center;
+        border-radius: 0.25em;
+        max-width: 1em;
+        max-height: 1em;
+        vertical-align: center;
 }
 
 .items-center {
-	display: flex;
-	align-items: center;
-	align-content: center;
+        display: flex;
+        align-items: center;
+        align-content: center;
 }
 
 li > a ~ a {
-	margin-left: 0.25em;
+        margin-left: 0.25em;
 }

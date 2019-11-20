@@ -14,21 +14,19 @@ Coming soon, our KC Elixir Meetup page will likely be going away due to cost str
   <div class="container meetup">
     <h2 class="text-center">
       <%= if meetup == Enum.fetch!(@meetups, 0) do %>
-        <small>Next Meetup</small></br>
+        <small>Next Meetup</small><br/>
       <% end %>
       <%= meetup.date_of %>
     </h2>
 
     <div class="container sponsor">
       <%= if Map.get(meetup, :sponsors) do %>
-      <b>Sponsors:</b>
-        <%= for sponsor <- Map.get(meetup, :sponsors, []) do %>
-        <p>
-          <div>
-            <a href="<%= Map.get(sponsor, :url) %>"><img alt="<%= Map.get(sponsor, :name) %>" src="<%= Routes.static_path(@conn, "/images/#{Map.get(sponsor, :image)}") %>" /><a/>
-          </div>
-        </p>
-        <% end %>
+        <b>Sponsors:</b>
+          <%= for sponsor <- Map.get(meetup, :sponsors, []) do %>
+            <div>
+              <a href="<%= Map.get(sponsor, :url) %>"><img alt="<%= Map.get(sponsor, :name) %>" src="<%= Routes.static_path(@conn, "/images/#{Map.get(sponsor, :image)}") %>"></a>
+            </div>
+          <% end %>
       <% end %>
     </div>
     <ul>
@@ -66,13 +64,11 @@ Coming soon, our KC Elixir Meetup page will likely be going away due to cost str
         <%= if Map.get(meetup.location, :url) do %>
           <a href="<%= meetup.location.url %>">
         <% end %>
-        <%= meetup.location_description %></a>
+        <%= meetup.location_description %>
         <%= if Map.get(meetup.location, :url) do %>
           </a>
         <% end %>
       </li>
-    </p>
-
     <div class="meetup-description">
       <%= text_to_html meetup.description %>
     </div>
@@ -80,6 +76,7 @@ Coming soon, our KC Elixir Meetup page will likely be going away due to cost str
     <%= if Map.get(meetup, :image_url) do %>
       <img class="center" src="<%= meetup.image_url %>"></img>
     <% end %>
+    </ul>
   </div>
 
   <hr/>
