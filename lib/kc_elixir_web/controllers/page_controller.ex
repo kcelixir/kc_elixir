@@ -21,7 +21,7 @@ defmodule KcElixirWeb.PageController do
       """,
       sponsors: [
         %{ name: "Binary Noggin", image: "binary-noggin.png", url: "https://binarynoggin.com" },
-        %{ name: "Postmates", image: "postmates.pdf", url: "https://postmates.com" },
+        %{ name: "Postmates", image: "postmates.png", url: "https://postmates.com" },
       ]
     },
     %{
