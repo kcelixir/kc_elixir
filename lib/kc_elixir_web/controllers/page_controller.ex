@@ -4,20 +4,20 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2020-01-09 18:00:00},
-        ~N{2020-01-09 20:00:00}
+        ~N{2020-02-06 18:00:00},
+        ~N{2020-02-06 20:00:00}
       ],
       speaker: %{
-        name: "Multiple speakers"
+        name: "Ben Reynolds"
       },
-      topic: "Lightning Talks",
+      topic: "The Joy of Rust (for Elixirists)",
       location: %{
         url: "https://goo.gl/maps/cUUMbLpFb3Nq4Wiz5",
         address: "300 E 39th St, Kansas City, MO 64111",
-        venue: "Plexpod Westport Commons, Room 1M"
+        venue: "Plexpod Westport Commons, Annex A"
       },
       description: """
-      5 minute presentations on various Elixir and non-Elixir topics put on by the group.
+      This month, Ben Reynolds will be presenting a brief introduction to the Rust programming language (https://rust-lang.org), why you might want to use it, and what you might want to use it for.
 
       Park in the ramped Guest Parking Lot at the NE corner of 39th and Warwick.  The building for the meetup is the one that is sky-bridged from the building adjacent to the parking lot and then on the 1st floor of that building.  Upon arrival, reach out to @alanvoss or @seancribbs in the #general channel of KC Elixir Slack, and we'll come get you and guide you.  You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """,
