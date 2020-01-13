@@ -14,7 +14,7 @@ defmodule KcElixirWeb.PageController do
       location: %{
         url: "https://goo.gl/maps/cUUMbLpFb3Nq4Wiz5",
         address: "300 E 39th St, Kansas City, MO 64111",
-        venue: "Plexpod Westport Commons, Room 1M"
+        venue: "Plexpod Westport Commons, Annex A"
       },
       description: """
       This month, Ben Reynolds will be presenting a brief introduction to the Rust programming language (https://rust-lang.org), why you might want to use it, and what you might want to use it for.
