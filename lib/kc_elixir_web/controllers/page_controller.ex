@@ -12,9 +12,9 @@ defmodule KcElixirWeb.PageController do
       },
       topic: "TLA+",
       location: %{
-        url: "",
+        url: "https://zoom.us/j/808755034",
         address: "",
-        venue: ""
+        venue: "virtual - zoom"
       },
       description: """
       Sean's presentation will start at 6:30pm.
