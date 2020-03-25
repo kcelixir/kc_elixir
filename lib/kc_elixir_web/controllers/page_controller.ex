@@ -4,22 +4,42 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2020-03-05 18:00:00},
-        ~N{2020-03-05 20:00:00}
+        ~N{2020-04-02 18:00:00},
+        ~N{2020-04-02 20:00:00}
       ],
       speaker: %{
-        name: "Everyone"
+        name: "Sean Cribbs"
       },
-      topic: "Lonestar Elixir - Recap",
+      topic: "TLA+",
       location: %{
-        url: "https://goo.gl/maps/cUUMbLpFb3Nq4Wiz5",
-        address: "300 E 39th St, Kansas City, MO 64111",
-        venue: "Plexpod Westport Commons, Annex A"
+        url: "https://zoom.us/j/808755034",
+        address: "",
+        venue: "virtual - zoom"
       },
       description: """
-      This month, everyone that attended Lonestar Elixir conference will give a recap of the talks they attended.
+      Sean's presentation will start at 6:30pm.
 
-      Park in the ramped Guest Parking Lot at the NE corner of 39th and Warwick.  The building for the meetup is the one that is sky-bridged from the building adjacent to the parking lot and then on the 1st floor of that building.  Upon arrival, reach out to @alanvoss or @seancribbs in the #general channel of KC Elixir Slack, and we'll come get you and guide you.  You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
+      https://en.wikipedia.org/wiki/TLA%2B
+
+      Please use the following to join.
+      KC Elixir - April 2020
+      Thursday, Apr 2, 2020 06:00 PM Central Time (US and Canada)
+
+      https://zoom.us/j/808755034 / Meeting ID: 808 755 034
+
+      One tap mobile
+      +13126266799,,808755034# US (Chicago)
+      +16465588656,,808755034# US (New York)Dial by your location
+      +1 312 626 6799 US (Chicago)
+      +1 646 558 8656 US (New York)
+      +1 346 248 7799 US (Houston)
+      +1 669 900 6833 US (San Jose)
+      +1 253 215 8782 US
+      +1 301 715 8592 US
+      Meeting ID: 808 755 034
+
+      Find your local number: https://zoom.us/u/acIuseHlXN
+      You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """,
       sponsors: [
         %{ name: "Postmates", image: "postmates.png", url: "https://postmates.com" },
