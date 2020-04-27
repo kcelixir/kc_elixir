@@ -4,41 +4,23 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2020-04-02 18:00:00},
-        ~N{2020-04-02 20:00:00}
+        ~N{2020-05-07 18:00:00},
+        ~N{2020-05-07 20:00:00}
       ],
       speaker: %{
-        name: "Sean Cribbs"
+        name: "Jeff Utter"
       },
-      topic: "TLA+",
+      topic: "Debugging Live Systems",
       location: %{
-        url: "https://zoom.us/j/808755034",
+        url: "https://www.eventbrite.com/e/kc-elixir-group-tickets-98729104409",
         address: "",
         venue: "virtual - zoom"
       },
       description: """
-      Sean's presentation will start at 6:30pm.
+      This meeting will be held virtually. Call in details will be included with your registration confirmation.
 
-      https://en.wikipedia.org/wiki/TLA%2B
+      Sign up at eventbrite: https://www.eventbrite.com/e/kc-elixir-group-tickets-98729104409
 
-      Please use the following to join.
-      KC Elixir - April 2020
-      Thursday, Apr 2, 2020 06:00 PM Central Time (US and Canada)
-
-      https://zoom.us/j/808755034 / Meeting ID: 808 755 034
-
-      One tap mobile
-      +13126266799,,808755034# US (Chicago)
-      +16465588656,,808755034# US (New York)Dial by your location
-      +1 312 626 6799 US (Chicago)
-      +1 646 558 8656 US (New York)
-      +1 346 248 7799 US (Houston)
-      +1 669 900 6833 US (San Jose)
-      +1 253 215 8782 US
-      +1 301 715 8592 US
-      Meeting ID: 808 755 034
-
-      Find your local number: https://zoom.us/u/acIuseHlXN
       You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """,
       sponsors: [
