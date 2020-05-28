@@ -4,22 +4,22 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2020-05-07 18:00:00},
-        ~N{2020-05-07 20:00:00}
+        ~N{2020-06-04 18:00:00},
+        ~N{2020-06-04 20:00:00}
       ],
       speaker: %{
-        name: "Jeff Utter"
+        name: "Alan Voss"
       },
-      topic: "Debugging Live Systems",
+      topic: "Game Night/Live Coding Exercise",
       location: %{
-        url: "https://www.eventbrite.com/e/kc-elixir-group-tickets-98729104409",
+        url: "https://www.eventbrite.com/e/kc-elixir-group-game-bot-night-tickets-98729413333",
         address: "",
         venue: "virtual - zoom"
       },
       description: """
       This meeting will be held virtually. Call in details will be included with your registration confirmation.
 
-      Sign up at eventbrite: https://www.eventbrite.com/e/kc-elixir-group-tickets-98729104409
+      Sign up at eventbrite: https://www.eventbrite.com/e/kc-elixir-group-game-bot-night-tickets-98729413333
 
       You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """,
