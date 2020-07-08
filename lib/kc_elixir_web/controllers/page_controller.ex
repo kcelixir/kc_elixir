@@ -4,15 +4,15 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2020-06-04 18:00:00},
-        ~N{2020-06-04 20:00:00}
+        ~N{2020-07-09 18:00:00},
+        ~N{2020-07-09 20:00:00}
       ],
       speaker: %{
-        name: "Alan Voss"
+        name: "Jordan Day"
       },
-      topic: "Game Night/Live Coding Exercise",
+      topic: "Building a BMC for my homelab using Nerves and LiveView",
       location: %{
-        url: "https://www.eventbrite.com/e/kc-elixir-group-game-bot-night-tickets-98729413333",
+        url: "https://www.eventbrite.com/e/kc-elixir-group-building-a-bmc-for-my-homelab-using-nerves-and-liveview-tickets-98729453453",
         address: "",
         venue: "virtual - zoom"
       },
