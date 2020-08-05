@@ -4,22 +4,22 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2020-07-09 18:00:00},
-        ~N{2020-07-09 20:00:00}
+        ~N{2020-08-06 18:00:00},
+        ~N{2020-08-06 20:00:00}
       ],
       speaker: %{
-        name: "Jordan Day"
+        name: "Jason Stewart"
       },
-      topic: "Building a BMC for my homelab using Nerves and LiveView",
+      topic: "Property Based Testing",
       location: %{
-        url: "https://www.eventbrite.com/e/kc-elixir-group-building-a-bmc-for-my-homelab-using-nerves-and-liveview-tickets-98729453453",
+        url: "https://www.eventbrite.com/e/kc-elixir-group-property-based-testing-tickets-98729595879",
         address: "",
         venue: "virtual - zoom"
       },
       description: """
       This meeting will be held virtually. Call in details will be included with your registration confirmation.
 
-      Sign up at eventbrite: https://www.eventbrite.com/e/kc-elixir-group-game-bot-night-tickets-98729413333
+      Sign up at eventbrite: https://www.eventbrite.com/e/kc-elixir-group-property-based-testing-tickets-98729595879
 
       You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """,
