@@ -4,22 +4,22 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2020-08-06 18:00:00},
-        ~N{2020-08-06 20:00:00}
+        ~N{2020-09-10 18:00:00},
+        ~N{2020-09-10 20:00:00}
       ],
       speaker: %{
-        name: "Jason Stewart"
+        name: "Everyone"
       },
-      topic: "Property Based Testing",
+      topic: "ElixirConf Highlights/Lightning Talks",
       location: %{
-        url: "https://www.eventbrite.com/e/kc-elixir-group-property-based-testing-tickets-98729595879",
+        url: "https://www.eventbrite.com/e/kc-elixir-group-elixirconf-and-lightning-talks-tickets-98729790461",
         address: "",
         venue: "virtual - zoom"
       },
       description: """
       This meeting will be held virtually. Call in details will be included with your registration confirmation.
 
-      Sign up at eventbrite: https://www.eventbrite.com/e/kc-elixir-group-property-based-testing-tickets-98729595879
+      Sign up at eventbrite: https://www.eventbrite.com/e/kc-elixir-group-elixirconf-and-lightning-talks-tickets-98729790461
 
       You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """,
