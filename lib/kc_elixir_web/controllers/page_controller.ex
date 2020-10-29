@@ -4,22 +4,22 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2020-09-10 18:00:00},
-        ~N{2020-09-10 20:00:00}
+        ~N{2020-11-05 18:00:00},
+        ~N{2020-11-05 20:00:00}
       ],
       speaker: %{
-        name: "Everyone"
+        name: "Ben Wheat"
       },
-      topic: "ElixirConf Highlights/Lightning Talks",
+      topic: "Elixir & UI's & CSS & Scenic... and stuff",
       location: %{
-        url: "https://www.eventbrite.com/e/kc-elixir-group-elixirconf-and-lightning-talks-tickets-98729790461",
+        url: "https://www.eventbrite.com/e/kc-elixir-group-generators-tickets-98729878725",
         address: "",
         venue: "virtual - zoom"
       },
       description: """
       This meeting will be held virtually. Call in details will be included with your registration confirmation.
 
-      Sign up at eventbrite: https://www.eventbrite.com/e/kc-elixir-group-elixirconf-and-lightning-talks-tickets-98729790461
+      Sign up at eventbrite: https://www.eventbrite.com/e/kc-elixir-group-generators-tickets-98729878725
 
       You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """,
