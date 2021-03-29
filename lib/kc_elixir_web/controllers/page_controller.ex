@@ -4,28 +4,30 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2020-11-05 18:00:00},
-        ~N{2020-11-05 20:00:00}
+        ~N{2021-04-01 18:00:00},
+        ~N{2021-04-01 20:00:00}
       ],
       speaker: %{
-        name: "Ben Wheat"
+        name: "Sean Cribbs"
       },
-      topic: "Elixir & UI's & CSS & Scenic... and stuff",
+      topic: "Introduction to Nx",
       location: %{
-        url: "https://www.eventbrite.com/e/kc-elixir-group-generators-tickets-98729878725",
+        url: "https://www.eventbrite.com/e/introduction-to-nx-tickets-148623399589",
         address: "",
         venue: "virtual - zoom"
       },
       description: """
+      Mr. Sean Cribbs will present a shallow introduction to Nx.
+
+      https://github.com/elixir-nx/nx
+
       This meeting will be held virtually. Call in details will be included with your registration confirmation.
 
-      Sign up at eventbrite: https://www.eventbrite.com/e/kc-elixir-group-generators-tickets-98729878725
+      Sign up at eventbrite: https://www.eventbrite.com/e/introduction-to-nx-tickets-148623399589
 
       You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """,
-      sponsors: [
-        %{ name: "Postmates", image: "postmates.png", url: "https://postmates.com" },
-      ]
+      sponsors: []
     }
   ]
 
