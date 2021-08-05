@@ -4,8 +4,8 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2021-08-01 18:00:00},
-        ~N{2021-08-01 20:00:00}
+        ~N{2021-08-05 18:00:00},
+        ~N{2021-08-05 20:00:00}
       ],
       speaker: %{
         name: "Jeff Utter"
