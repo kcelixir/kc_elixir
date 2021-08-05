@@ -13,8 +13,8 @@ defmodule KcElixirWeb.PageController do
       topic: "Observability and Monitoring",
       location: %{
         url: "",
-        address: "",
-        venue: "in person/virtual - zoom"
+        address: "7001 N Locust St, Gladstone, MO 64118",
+        venue: "iWorx (classroom near parking lot w/exterior entrance)"
       },
       description: """
       * A smidgen of talking about tools/libraries
