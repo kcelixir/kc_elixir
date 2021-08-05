@@ -4,26 +4,23 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2021-04-01 18:00:00},
-        ~N{2021-04-01 20:00:00}
+        ~N{2021-08-01 18:00:00},
+        ~N{2021-08-01 20:00:00}
       ],
       speaker: %{
-        name: "Sean Cribbs"
+        name: "Jeff Utter"
       },
-      topic: "Introduction to Nx",
+      topic: "Observability and Monitoring",
       location: %{
-        url: "https://www.eventbrite.com/e/introduction-to-nx-tickets-148623399589",
+        url: "",
         address: "",
-        venue: "virtual - zoom"
+        venue: "in person/virtual - zoom"
       },
       description: """
-      Mr. Sean Cribbs will present a shallow introduction to Nx.
-
-      https://github.com/elixir-nx/nx
-
-      This meeting will be held virtually. Call in details will be included with your registration confirmation.
-
-      Sign up at eventbrite: https://www.eventbrite.com/e/introduction-to-nx-tickets-148623399589
+      * A smidgen of talking about tools/libraries
+      * Some ideas around useful metrics to collect and how to interpret/correlate them
+      * One or more stories about how we used metrics to track down a nasty bug and/or make good engineering decisions
+      * One or more stories where we used metrics and observability to royally mess something up
 
       You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """,
