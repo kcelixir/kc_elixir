@@ -4,23 +4,22 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2021-08-05 18:00:00},
-        ~N{2021-08-05 20:00:00}
+        ~N{2021-10-07 18:00:00},
+        ~N{2021-10-07 20:00:00}
       ],
       speaker: %{
-        name: "Jeff Utter"
+        name: "Alan Voss"
       },
-      topic: "Observability and Monitoring",
+      topic: "Bot creation fun (game bot)",
       location: %{
         url: "",
         address: "7001 N Locust St, Gladstone MO 64118 - ping in slack if you are locked out",
         venue: "in person/virtual - zoom"
       },
       description: """
-      * A smidgen of talking about tools/libraries
-      * Some ideas around useful metrics to collect and how to interpret/correlate them
-      * One or more stories about how we used metrics to track down a nasty bug and/or make good engineering decisions
-      * One or more stories where we used metrics and observability to royally mess something up
+      Join us for another entertaining evening of bot creation.  Program your own or pair up with a neighbor.  We will duke it out for champion at the end.  Bring a friend who has never done Elixir!
+
+      If attending virtually please RSVP @ https://www.eventbrite.com/e/bot-creation-fun-with-alan-voss-tickets-182150044687
 
       You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """,
