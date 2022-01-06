@@ -4,22 +4,22 @@ defmodule KcElixirWeb.PageController do
   @meetups [
     %{
       datetime: [
-        ~N{2021-10-07 18:00:00},
-        ~N{2021-10-07 20:00:00}
+        ~N{2022-01-06 18:00:00},
+        ~N{2022-01-06 20:00:00}
       ],
       speaker: %{
-        name: "Alan Voss"
+        name: "Bruce Meacham"
       },
-      topic: "Bot creation fun (game bot)",
+      topic: "Using elixir/scenic to build fault tolerant aircraft electrician flight systems.",
       location: %{
         url: "",
-        address: "7001 N Locust St, Gladstone MO 64118 - ping in slack if you are locked out",
-        venue: "in person/virtual - zoom"
+        address: "N/A",
+        venue: "virtual - zoom"
       },
       description: """
-      Join us for another entertaining evening of bot creation.  Program your own or pair up with a neighbor.  We will duke it out for champion at the end.  Bring a friend who has never done Elixir!
+      Join us for using elixir/scenic to build fault tolerant aircraft electrician flight systems.
 
-      If attending virtually please RSVP @ https://www.eventbrite.com/e/bot-creation-fun-with-alan-voss-tickets-182150044687
+      If attending virtually please RSVP @ https://www.eventbrite.com/e/elixirscenic-to-build-aircraft-electrician-flight-systems-tickets-239748031817
 
       You can join our group's Slack by going to http://kcelixir-slack.herokuapp.com/.
       """,
